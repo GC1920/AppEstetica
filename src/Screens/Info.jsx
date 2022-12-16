@@ -23,11 +23,11 @@ export function Info() {
         </View>
 
         <View>
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Definition', { ID: route.params.ID, ITEMID: route.params.ITEMID, TITLE: route.params.TITLE })}>
             <Text style={styles.text}>Definição</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Presentation', { ID: route.params.ID, ITEMID: route.params.ITEMID, TITLE: route.params.TITLE })}>
             <Text style={styles.text}>Como se apresenta</Text>
           </TouchableOpacity>
 

@@ -21,24 +21,24 @@ export function Lista() {
 
     <ItemList 
       title={item.title}
-      onPress={() => navigation.navigate('Info', { TITLE: item.title })}
+      onPress={() => navigation.navigate('Info', { ID: DATA.id, ITEMID: item.id, TITLE: item.title })}
     />
   )
   
   return (
     <>
         <SafeAreaView style={ styles.container }>
-          <View style={styles.titleContent}>
-            <Text style={styles.text}>
-              {DATA.type}
-            </Text>
-          </View>
+            <View style={styles.titleContent}>
+              <Text style={styles.text}>
+                {DATA.type}
+              </Text>
+            </View>
 
-          <FlatList 
-            data={DATA.results}
-            renderItem={renderItem}
-            keyExtractor={item => item.id}
-          />
+            <FlatList 
+              data={DATA.results}
+              renderItem={renderItem}
+              keyExtractor={item => item.id}
+            />
         </SafeAreaView>
     </>
   );

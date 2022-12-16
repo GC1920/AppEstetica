@@ -3,7 +3,21 @@ export declare global {
         interface RootParamsList {
             Home: undefined;
             Lista: {ID: number};
-            Info: {TITLE: string};
+            Info: {
+                ID: number,
+                ITEMID: number,
+                TITLE: string
+            };
+            Definition: {
+                ID: number,
+                ITEMID: number,
+                TITLE: string
+            };
+            Presentation: {
+                ID: number,
+                ITEMID: number,
+                TITLE: string
+            }
         }
     }
 }

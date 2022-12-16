@@ -2,9 +2,13 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 const { Screen, Navigator } = createNativeStackNavigator();
 
+//Core Screens
 import { Home } from '../Screens/Home';
 import { Lista } from '../Screens/Lista';
 import { Info } from '../Screens/Info';
+//Basic Screens
+import { Definition } from "../Screens/basics/Definition";
+import { Presentation } from "../Screens/basics/Presentation";
 
 const config = {
     animation: 'spring',
@@ -57,6 +61,40 @@ export function StackRoutes() {
                 component={Info}
                 options={{
                     title: 'Informações',
+                    headerStyle: {
+                        backgroundColor: '#fff'
+                    },
+                    headerTintColor: '#7c8fe3',
+                    headerTitleAlign: 'center',
+                    transitionSpec: {
+                    open: config,
+                    close: config,
+                    }
+                }}
+            />
+
+            <Screen 
+                name="Definition"
+                component={Definition}
+                options={{
+                    title: 'Definição',
+                    headerStyle: {
+                        backgroundColor: '#fff'
+                    },
+                    headerTintColor: '#7c8fe3',
+                    headerTitleAlign: 'center',
+                    transitionSpec: {
+                    open: config,
+                    close: config,
+                    }
+                }}
+            />
+
+            <Screen 
+                name="Presentation"
+                component={Presentation}
+                options={{
+                    title: 'Como se Apresenta',
                     headerStyle: {
                         backgroundColor: '#fff'
                     },
