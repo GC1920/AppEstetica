@@ -24,5 +24,5 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontSize: 16,
         color: '#7c8fe3'
-      },
+    },
 })

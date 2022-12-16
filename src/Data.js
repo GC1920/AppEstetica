@@ -4,7 +4,7 @@ export const doencas = [
             type: "Capilares",
             results: [
                 {
-                    id: 1,
+                    id: 11,
                     title: "Alopecia androgenética",
                     definicao: "Alopecia androgenética, ou calvície, é uma forma de queda de cabelos geneticamente determinada. É relativamente frequente na população. Homens e mulheres podem ser acometidos pelo problema, que apesar de se iniciar na adolescência, só é aparente após algum tempo, por volta dos 40 ou 50 anos. Apesar do termo “andro” se referir ao hormônio masculino, na maioria das vezes os níveis hormonais se mostram normais nos exames de sangue. A doença se desenvolve desde a adolescência, quando o estímulo hormonal aparece e faz com que, em cada ciclo do cabelo, os fios venham progressivamente mais finos.",
                     apresentacao: "A queixa mais frequente na alopecia androgenética é a de afinamento dos fios. Os cabelos ficam ralos e, progressivamente, o couro cabeludo mais aberto. Nas mulheres, a região central é mais acometida, pode haver associação com irregularidade menstrual, acne, obesidade e aumento de pelos no corpo. Porém, em geral, são sintomas discretos. Nos homens, as áreas mais abertas são a coroa e a região frontal (entradas).",
@@ -14,7 +14,7 @@ export const doencas = [
                     src: `Alopecia Androgenética. Disponível em: <https://www.sbd.org.br/doencas/alopecia-androgenetica/>. Acesso em: ${ Date.now()}.`
                 },
                 {
-                    id: 2,
+                    id: 12,
                     title: "Alopecia areata",
                     definicao: "Alopecia areata é uma doença inflamatória que provoca a queda de cabelo. Diversos fatores estão envolvidos no seu desenvolvimento, como a genética e a participação autoimune. Os fios começam a cair resultando mais frequentemente em falhas circulares sem pelos ou cabelos. A extensão dessa perda varia, sendo que, em alguns casos, poucas regiões são afetadas. Em outros, a perda de cabelo pode ser maior. Há casos raros de alopecia areata total, nos quais o paciente perde todo o cabelo da cabeça; ou alopecia areata universal, na qual caem os pelos de todo o corpo. A alopecia areata não é contagiosa. Fatores emocionais, traumas físicos e quadros infecciosos podem desencadear ou agravar o quadro. A evolução da alopecia areata não é previsível.  O cabelo sempre pode crescer novamente, mesmo que haja perda total. Isto ocorre porque a doença não destrói os folículos pilosos, apenas os mantêm inativos pela inflamação. Entretanto, novos surtos podem ocorrer. Cada caso é único. Estudos sugerem que cerca de  5% dos pacientes perdem todos os pelos do corpo. Existem dois tipos de alopecias cicatriciais: Alopecia cicatricial primária: pode ser causada por doenças congênitas e autoimunes ou então por processos inflamatórios que resultam em fibrose e, assim, impedem o desenvolvimento de fios de cabelo na região. Normalmente, as principais causas são doenças como, por exemplo, lúpus eritematoso, diabetes, líquen plano pilar, alopecia frontal fibrosante, entre outras; Alopecia cicatricial secundária: está relacionada a queimaduras, produtos químicos, exposição à radiação, traumas, infecções bacterianas ou fúngicas, micoses, tumores ou então doenças dermatológicas. Esses problemas atacam os folículos de forma indireta, mas, dependendo do nível, podem causar danos irreversíveis.",
                     apresentacao: "A alopecia areata não possui nenhum outro sintoma além da perda brusca de cabelos, com áreas arredondadas, únicas ou múltiplas, sem demais alterações. A pele é lisa e brilhante e os pelos ao redor da placa saem facilmente se forem puxados. Os cabelos, quando renascem, podem ser brancos, adquirindo posteriormente sua coloração normal. A forma mais comum é uma placa única, arredondada, que ocorre geralmente no couro cabeludo e barba, conhecida popularmente como pelada. Outras doenças autoimunes podem acontecer em alguns pacientes, como vitiligo, problemas da tireoide e lúpus eritematoso, por exemplo. Portanto, muitas vezes se faz necessária a reavaliação de exames de sangue. O principal dano aos pacientes é mesmo o psicológico. A interferência na rotina diária nos casos mais extensos pode prejudicar a qualidade de vida.",
@@ -24,7 +24,7 @@ export const doencas = [
                     src: `Alopecia Areata. Disponível em: <https://www.sbd.org.br/doencas/alopecia-areata/>. Acesso em: ${ Date.now()}.`
                 },
                 {
-                    id: 3,
+                    id: 13,
                     title: "Alopecia cicatricial",
                     definicao: "A alopecia cicatricial acontece por uma inflamação que agride a raiz dos cabelos. Entretanto, se não tratada no início, pode resultar na destruição dos folículos pilosos (regiões que geram o fio do cabelo, onde estão as células-tronco). Resultando, assim, na formação de cicatrizes que impedem o crescimento de novos fios.",
                     apresentacao: "As manifestações clínicas surgem de forma diferente em cada paciente. As mais comuns são, sobretudo, a queda de cabelos em tufos, formando placas lisas no couro cabeludo. Assim como descamação, vermelhidão, ardência, coceira e pequenas espinhas ou abscessos doloridos, com saída de pus.",
@@ -34,7 +34,7 @@ export const doencas = [
                     src: `O que é Alopecia Cicatricial? Causas e tratamentos | Capellux. Disponível em: <https://capellux.com.br/alopecia-cicatricial/>. Acesso em: ${ Date.now()}.`
                 },
                 {
-                    id: 4,
+                    id: 14,
                     title: "Alopecia difusa",
                     definicao: "A alopecia difusa é um tipo de queda de cabelo que pode ser vista tanto em homens quanto mulheres. A queda difusa de cabelos tende a afetar todo o couro cabeludo, ao invés de áreas específicas. Pode ocorrer em qualquer idade.",
                     apresentacao: "Os primeiros sintomas, um aumento de volume de queda dos fios capilares seguido por um perceptível afinamento dos fios.Cerca de 40% das mulheres e 20% dos homens acima de 20 anos, desenvolvem queda difusa de cabelo pelo menos uma vez na vida.",
@@ -44,7 +44,7 @@ export const doencas = [
                     src: `ALOPECIA DIFUSA Conheça os sintomas, as causas e o tratamento. Disponível em: <https://rsaude.com.br/ponta-grossa/materia/alopecia-difusa-conheca-os-sintomas-as-causas-e-o-tratamento/20357>. Acesso em: ${ Date.now()}.`
                 },
                 {
-                    id: 5,
+                    id: 15,
                     title: "Alopecia traumática/por tração",
                     definicao: "O penteado é o agressor direto, porém a fragilidade natural dos cabelos crespos e a associação de alisamento químico aumentam a possibilidade de desenvolver a alopecia de tração. A tração e o dano físico ao eixo do cabelo levam inicialmente a alterações no ciclo de crescimento do cabelo. No início, o trauma da tração provoca uma inflamação ao redor do folículo piloso. Como resultado dessa inflamação, os folículos pilosos podem tornar-se miniaturizados (cabelos mais finos, semelhante ao pelo velo) e consequente redução da densidade capilar. A manutenção do fator agressor de forma crônica provoca a destruição progressiva dos folículos terminais tracionados. Se for suspensa a tração, é possível a recuperação do cabelo, porém se a agressão for mantida, a alopecia se torna irreversível.",
                     apresentacao: "Inicialmente, surge foliculite de tração e que se manifesta pelo surgimento de pápulas (carocinho), pústulas (bolhinhas de pus) e vermelhidão ao redor dos pelos, ainda sem perda de cabelo ou com alopecia discreta.Essa inflamação denuncia inflamação inicial ao pelo. Com a persistência da tração, ocorre perda perceptível do cabelo, com diminuição da sua densidade até a alopecia completa da região afetada do couro cabeludo. A localização mais comum da alopecia de tração é na parte frontal e lateral do couro cabeludo e que corresponde à tensão mais comum no cabelo.",
@@ -54,7 +54,7 @@ export const doencas = [
                     src: `VISANA COMUNICAÇÃO. Alopecia de Tração - SBDRJ. Disponível em: <https://sbdrj.org.br/alopecia-de-tracao/>. Acesso em: ${ Date.now()}.`
                 },
                 {
-                    id: 6,
+                    id: 16,
                     title: "Dermatite",
                     definicao: "A caspa ou dermatite seborreica é uma inflamação na pele que causa principalmente descamação e vermelhidão em algumas áreas da face, como sobrancelhas e cantos do nariz, couro cabeludo, orelhas e tórax. Apresenta períodos de melhora e de piora dos sintomas.",
                     apresentacao: "As placas brancas que se soltam na base dos fios de cabelo são formadas porque as glândulas sebáceas (que produzem gordura) incham e passam a produzir secreção oleosa em excesso, que se acumula no couro cabeludo. Além disso, temos: Escamas brancas que descamam; Escamas amareladas que são oleosas e ardem; Coceira, que pode piorar caso a área seja infectada pelo ato de “cutucar” a pele; Leve vermelhidão na área; Possível perda de cabelo.",
@@ -64,7 +64,7 @@ export const doencas = [
                     src: `OMS. Caspa (dermatite seborreica) | Biblioteca Virtual em Saúde MS. Disponível em: <https://bvsms.saude.gov.br/caspa-dermatite-seborreica/>. Acesso em: ${ Date.now()}.`
                 },
                 {
-                    id: 7,
+                    id: 17,
                     title: "Eflúvio",
                     definicao: "É uma condição que se caracteriza pelo aumento da queda diária de fios de cabelo. Seu aumento é visto principalmente naquele bolo que cai no chuveiro ou fica na escova quando penteamos. O eflúvio se divide em dois tipos: agudo e crônico. São subtítulos que compartilham a queixa de queda aguda, mas são clinicamente distintos.",
                     apresentacao: "O principal sintoma é a queda aguda do cabelo, com aumento dos fios que caem dia a dia. Coceira no couro cabeludo, principalmente na região posterior, pode estar presente em alguns casos. Eflúvio telógeno agudo: sua causa está associada a algum evento que aconteceu três meses antes do início da queda. Isso porque o período de preparo para a queda dura de dois a três meses e os fios se desprendem ao final desse ciclo. Esses eventos, ou gatilhos, convertem um percentual maior de fios para a fase de queda. Sendo assim, ao invés de termos 100-120 fios caindo diariamente, temos 200-300 fios, dependendo do paciente e da causa do eflúvio.  Os eventos mais associados à queda são: pós-parto, febre, infecção aguda, sinusite, pneumonia, gripe, dietas muito restritivas, doenças metabólicas ou infecciosas, cirurgias, especialmente a bariátrica, por conta da perda de sangue e do estresse metabólico, além do estresse. Algumas medicações também podem desencadear o problema. Tudo isso pode interferir na proporção dos fios na fase de queda. Em geral, 70% dos casos têm o agente descoberto. Já nos 30% restantes a causa acaba por não ser definida. Eflúvio telógeno crônico: a fase na qual os fios caem muito, se assemelha à versão aguda. Porém, em longo prazo, é diferente. Há ciclos de aumento dos fios na fase de queda, de forma cíclica, uma ou duas vezes por ano, ou a cada dois anos, dependendo do paciente. Conforme o tempo passa, o paciente fica com o cabelo mais volumoso na base e menos volumoso no comprimento. O cabelo fica mais curto e com o “rabo de cavalo” mais fino. Se o paciente só tiver essa condição, não ficará com o cabelo ralo no couro cabeludo. Porém, seu problema pode estar associado a outras condições que causam rarefação dos fios. De qualquer forma, se perde muito volume e comprimento. O problema nem sempre tem causa definida, mas sabe-se que está associado a doenças autoimunes, dentre elas, a mais comum é a tireoidite de Hashimoto.",
@@ -74,7 +74,7 @@ export const doencas = [
                     src: `Eflúvio Telógeno. Disponível em: <https://www.sbd.org.br/doencas/efluvio-telogeno/>. Acesso em: ${ Date.now()}.`
                 },
                 {
-                    id: 8,
+                    id: 18,
                     title: "Foliculiote dissecante",
                     definicao: "A foliculite dissecante é um tipo de alopécia caracterizada pelo surgimento de nódulos, abscessos e fístulas, que resultam em áreas de alopecia, cicatrizes hipertróficas e queloidianas no couro cabeludo. A tendência genética à acne inflamatória e aos cistos pilosos pode estar relacionada com a foliculite dissecante. Além disso, a resposta imune a bactérias da pele também é uma das causas da condição.",
                     apresentacao: "A foliculite dissecante (FD) é caracterizada pelo surgimento de pequenas espinhas que evoluem para nódulos inflamatórios e dolorosos no couro cabeludo. Pode haver saída de secreção purulenta ou mesmo com um pouco de sangue. Na região acometida por haver perda dos cabelos (alopecia). Com o tempo, se não tratada, as lesões evoluem com cicatrizes de depois tipos: atróficas e queloidianas.",
@@ -84,7 +84,7 @@ export const doencas = [
                     src: `MARLONASSUNCAO. Foliculite dissecante - Maria Clara de Paula. Disponível em: <https://mariaclaradepaula.com.br/foliculite-dissecante/>. Acesso em: ${ Date.now()}.`
                 },
                 {
-                    id: 9,
+                    id: 19,
                     title: "Foliculiote decalvante",
                     definicao: "A foliculite decalvante é uma condição inflamatória crônica (a longo prazo) do couro cabeludo. Muito raramente, pode afetar outra pele com pelos, como a barba, axilas, região pubiana e pernas. A inflamação prolongada que geralmente leva a cicatrizes. A foliculite decalvante é a inflamação da raiz do cabelo associada à perda de cabelo. Predomina em adolescentes e adultos jovens, principalmente em pacientes negros do sexo masculino.",
                     apresentacao: "Se manifesta como pápulas foliculares avermelhadas que evoluem para pústulas que são como espinhas com pus.A infecção se apresenta no formato de pequenas espinhas, de pontas brancas, em torno de um ou mais folículos pilosos. Pode ser superficial ou profunda. No primeiro caso, afeta apenas a parte superior do folículo piloso. Os sintomas são: surgimento de pequenas espinhas vermelhas, com ou sem pus; a pele pode ficar avermelhada e inflamada; coceira e sensibilidade na região. São raros os casos deste tipo de foliculite que causam complicações. Quando a inflamação atinge áreas mais profundas da pele, pode haver a formação de furúnculos. Os sintomas são: grandes áreas avermelhadas; lesões elevadas com pus amarelado no meio; as partes atingidas ficam muito sensíveis e doloridas; apresentando em alguns casos dor intensa. As chances de cicatrizes são maiores nesses casos, e pode haver destruição do folículo piloso.",
@@ -94,7 +94,7 @@ export const doencas = [
                     src: `Foliculite Decalvante - Clínica Sanabria. Disponível em: <https://clinicasanabria.com.br/foliculite-decalvana/>. Acesso em: ${ Date.now()}.`
                 },
                 {
-                    id: 10,
+                    id: 20,
                     title: "Psoríase do couro cabeludo",
                     definicao: "Psoríase e uma doença da pele relativamente comum, crônica e não contagiosa. É cíclica, ou seja, apresenta sintomas que desaparecem e reaparecem periodicamente. É uma doença autoinflamatória da pele, na qual por predisposição genética, junto com fatores ambientais ou de comportamento, causam o aparecimento de lesões avermelhadas e que descamam na pele. Acredita-se que ela se desenvolve quando os linfócitos T (células responsáveis pela defesa do organismo) liberam substâncias inflamatórias que promovem dilatação dos vasos sanguíneos e dirigem outras células do sistema de defesa para pele, como neutrófilos. Este processo de ataque inflamatório à pele faz com que esta responda acelerando sua proliferação, o que resulta na descamação observada nas lesões. Normalmente, essa cadeia só é quebrada com tratamento. É importante ressaltar: a doença não é contagiosa e o contato com pacientes não precisa ser evitado. Em até 30% dos pacientes, inflamação similar pode acontecer nas articulações, levando à artrite psoriásica, outra manifestação da doença. Também existe associação de psoríase com doenças cardiometabólicas, doenças gastrointestinais, diversos tipos de cânceres e distúrbios do humor, o que diminui a qualidade de vida do paciente e pode também, dependendo da gravidade, diminuir a expectativa de vida, se não tratada. O mesmo processo de autoinflamação que causa lesões na pele e articulações parece ser o responsável pelo aparecimento destas comorbidades.",
                     apresentacao: "Variam de paciente para paciente, conforme a apresentação e gravidade da doença, mas podem incluir: Manchas vermelhas com escamas secas esbranquiçadas ou prateadas; Pequenas manchas brancas ou escuras residuais após melhora das lesões avermelhadas. Pele ressecada e rachada; às vezes, com sangramento; Coceira, queimação e dor; Em casos de psoríase leve pode haver apenas um desconforto por causa dos sintomas, mas nos casos mais graves, pode ser dolorosa e provocar alterações que impactam significativamente na qualidade de vida e na autoestima do paciente. Assim, o ideal é procurar tratamento o quanto antes. Há vários tipos de psoríase, sendo necessário procurar um dermatologista especializado no tratamento da doença para poder identificar, classificar e indicar a melhor opção terapêutica caso a caso.",
@@ -103,7 +103,7 @@ export const doencas = [
                     prevencao: "Um estilo de vida saudável pode ajudar na diminuição da progressão ou melhora da psoríase, mas pessoas que possuem histórico familiar da doença devem ter atenção redobrada a possíveis sintomas. É importante estar atento aos sinais. Caso perceber qualquer um dos sintomas, procurar o dermatologista imediatamente. Quanto mais precoce for o diagnóstico, mais fácil será o tratamento.",
                     src: `Psoríase. Disponível em: <https://www.sbd.org.br/doencas/psoriase/>. Acesso em: ${ Date.now()}.`
                 },
-                {id: 11,
+                {id: 21,
                     title: "Hipertricose",
                     definicao: "Extremamente rara, a hipertricose é uma condição também conhecida como “síndrome do lobisomen”. O paciente que sofre de hipertricose apresenta um crescimento excessivo de pelos em todo o seu corpo, e conforme a doença se desenvolve, apenas seus pés e mãos, em sua parte interna, ficam sem apresentar pelos. O paciente pode nascer com a hipertricose, sendo que os pelos temporários que os bebês possuem, bem finos e conhecidos como “lanugos” não desaparecem. Mas a hipertricose também pode surgir apenas na vida adulta.",
                     apresentacao: "No paciente com hipertricose, pelos surgem em seu corpo em grande quantidade e em diferentes espessuras. Eles podem surgir em pontos onde não existam pêlos,  como o centro do rosto e as bochechas e podem ser de um mesmo tipo de pêlo ou não. Geralmente, o único ponto do corpo do paciente que não possui pêlos são as palmas das mãos e dos pés. Os pacientes com hipertricose também apresentam, de modo geral, problemas na boca, como doenças da gengiva ou até mesmo a ausência de alguns dentes.",

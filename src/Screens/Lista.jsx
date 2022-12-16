@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, Text, StyleSheet, ScrollView, FlatList } from 'react-native';
+import { View, SafeAreaView, Text, StyleSheet, FlatList } from 'react-native';
 
 import { useRoute } from '@react-navigation/native';
 
@@ -17,22 +17,22 @@ export function Lista() {
 
   const DATA = doencas[route.params.ID];
 
-  console.log(DATA)
-
   const renderItem = ({ item }) => (
 
     <ItemList 
       title={item.title}
-      onPress={() => navigation.navigate('Info', { ID: item.id })}
+      onPress={() => navigation.navigate('Info', { TITLE: item.title })}
     />
   )
   
   return (
     <>
         <SafeAreaView style={ styles.container }>
-          <Text style={styles.text}>
-            {DATA.type}
-          </Text>
+          <View style={styles.titleContent}>
+            <Text style={styles.text}>
+              {DATA.type}
+            </Text>
+          </View>
 
           <FlatList 
             data={DATA.results}
@@ -51,12 +51,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#7c8fe3',
   },
+  titleContent: {
+    marginTop: 40,
+    marginBottom: 40
+  },
   text: {
     textAlign: 'center',
     color:'#fff',
     textTransform: 'uppercase',
     fontSize: 24,
-    marginTop: 12,
-    marginBottom: 12
   },
 });
