@@ -534,16 +534,6 @@ export const doencas = [
                     tratamento: "A urticária crônica não tem cura, mas as crises podem ser controladas com medicamentos. O objetivo é a melhora dos sintomas que interferem diretamente na qualidade de vida dos portadores da doença. O tratamento é estabelecido, individualmente, de acordo com as necessidades de cada doente. Medicação de uso local não costuma apresentar resultados eficazes para o controle da doença. Quando é possível identificar a causa das lesões, como ocorre nas urticárias agudas e nas crônicas induzidas, a primeira medida terapêutica consiste em suspender o contato com o agente desencadeante das crises. Medicamentos anti-histamínicos (conhecidos como antialérgicos), por via oral, são úteis para aliviar os sintomas, porque inibem a ação dos receptores de histamina. Em algumas situações, pode ser necessário incluir a prescrição de drogas com corticoides em sua fórmula, por períodos curtos, em virtude dos efeitos adversos que podem provocar, e imunossupressores.  Casos mais graves, especialmente quando associados ao angioedema, podem exigir a aplicação de adrenalina por via subcutânea. O tratamento da urticária crônica espontânea idiopática é realizado em etapas, com anti-histamínicos introduzidos em doses que podem ser aumentadas gradativamente. Considerando a resposta do paciente à medicação, outras classes de drogas podem ser introduzidas.",
                     prevencao: "Evite medicamentos que não forem prescritos pelo seu médico. Mesmo drogas aparentemente inofensivas de uso corriqueiro podem provocar e/ou piorar a urticária., tais como inibidores da cicloxigenase, antiinflamatórios não hormonais, AAS (ácido acetil salicílico), medicamentos coloridos e com sabor, vitaminas e radiocontrastes.",
                     src: "URTICÁRIA – ORIENTAÇÕES - Clínica Pró-Saúde. Disponível em: <https://clinprosaude.com.br/orientacoesdeurticaria/#:~:text=Evite%20tomar%20%C3%A1lcool%20com%20anti,crise%20tente%20esfriar%20a%20pele.>."
-                },
-                {
-                    id: 9,
-                    title: "",
-                    definicao: "",
-                    apresentacao: "",
-                    imagem: "",
-                    tratamento: "",
-                    prevencao: "",
-                    src: ""
                 }
             ]
         }
