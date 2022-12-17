@@ -17,7 +17,17 @@ export declare global {
                 ID: number,
                 ITEMID: number,
                 TITLE: string
-            }
+            };
+            Prevent: {
+                ID: number,
+                ITEMID: number,
+                TITLE: string
+            };
+            Tretment: {
+                ID: number,
+                ITEMID: number,
+                TITLE: string
+            };
         }
     }
 }

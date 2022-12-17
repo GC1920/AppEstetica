@@ -31,11 +31,11 @@ export function Info() {
             <Text style={styles.text}>Como se apresenta</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Tretment', { ID: route.params.ID, ITEMID: route.params.ITEMID, TITLE: route.params.TITLE })}>
             <Text style={styles.text}>Tratamento</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Prevent', { ID: route.params.ID, ITEMID: route.params.ITEMID, TITLE: route.params.TITLE })}>
             <Text style={styles.text}>Prevenção</Text>
           </TouchableOpacity>
         </View>

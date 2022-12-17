@@ -9,6 +9,8 @@ import { Info } from '../Screens/Info';
 //Basic Screens
 import { Definition } from "../Screens/basics/Definition";
 import { Presentation } from "../Screens/basics/Presentation";
+import { Prevent } from "../Screens/basics/Prevent";
+import { Tretment } from "../Screens/basics/Tretment";
 
 const config = {
     animation: 'spring',
@@ -95,6 +97,40 @@ export function StackRoutes() {
                 component={Presentation}
                 options={{
                     title: 'Como se Apresenta',
+                    headerStyle: {
+                        backgroundColor: '#fff'
+                    },
+                    headerTintColor: '#7c8fe3',
+                    headerTitleAlign: 'center',
+                    transitionSpec: {
+                    open: config,
+                    close: config,
+                    }
+                }}
+            />
+
+            <Screen 
+                name="Prevent"
+                component={Prevent}
+                options={{
+                    title: 'Prevenção',
+                    headerStyle: {
+                        backgroundColor: '#fff'
+                    },
+                    headerTintColor: '#7c8fe3',
+                    headerTitleAlign: 'center',
+                    transitionSpec: {
+                    open: config,
+                    close: config,
+                    }
+                }}
+            />
+
+            <Screen 
+                name="Tretment"
+                component={Tretment}
+                options={{
+                    title: 'Tratamentos',
                     headerStyle: {
                         backgroundColor: '#fff'
                     },
