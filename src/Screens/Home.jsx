@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, SafeAreaView, FlatList, StyleSheet } from 'react-native';
+import { View, Image, SafeAreaView, FlatList, StyleSheet } from 'react-native';
 
 import { useNavigation } from '@react-navigation/native';
 
@@ -23,10 +23,11 @@ export function Home() {
     <>
       <SafeAreaView style={ styles.container }>
         <View style={styles.content}>
-          <Text style={styles.text}>
-            LOGO
-          </Text>
-
+        
+          <Image
+            style={styles.image}
+            source={require('../../assets/icon.png')}
+          />
           <FlatList 
             data={doencas}
             renderItem={renderItem}
@@ -46,13 +47,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   content: {
-    alignItems: 'center'
+    alignItems: 'center',
+    marginBottom: 40
   },
-  text: {
-    textAlign: 'center',
-    paddingBottom: 12,
-    textTransform: 'uppercase',
-    fontSize: 24,
-    color: '#7c8fe3'
+  image: {
+    width: 120,
+    height: 120,
   },
 });
