@@ -32,7 +32,7 @@ export function StackRoutes() {
                 name="Home"
                 component={Home}
                 options={{
-                    title: 'App Estética',
+                    headerShown: false,
                     headerStyle: {
                         backgroundColor: '#7c8fe3'
                     },

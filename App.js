@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import AnimatedSplash from 'react-native-animated-splash-screen';
 
+import { StatusBar } from 'react-native';
+
 import { Routes } from './src/routes/Index';
+
+import { Footer } from './src/Screens/Components/Footer';
 
 export default function App() {
 
@@ -20,7 +24,10 @@ export default function App() {
         logoHeight={800}
         logoWidth={800}
     >
+      <StatusBar barStyle={'dark-content'}/>
       <Routes />
+      
+      <Footer />
     </AnimatedSplash>
   );
 }

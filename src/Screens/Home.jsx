@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, SafeAreaView, FlatList, StyleSheet } from 'react-native';
+import { View, Image, Text, SafeAreaView, FlatList, StyleSheet } from 'react-native';
 
 import { useNavigation } from '@react-navigation/native';
 
@@ -28,6 +28,10 @@ export function Home() {
             style={styles.image}
             source={require('../../assets/icon.png')}
           />
+
+          <Text style={styles.title}>Dysfunction Assistent</Text>
+
+          <Text style={styles.text}>Por favor escolha uma disfunção</Text>
           <FlatList 
             data={doencas}
             renderItem={renderItem}
@@ -51,7 +55,20 @@ const styles = StyleSheet.create({
     marginBottom: 40
   },
   image: {
-    width: 120,
-    height: 120,
+    width: 420,
+    height: 200,
   },
+  title: {
+    textAlign: 'center',
+    textTransform: 'uppercase',
+    color:'#7c8fe3',
+    fontSize: 24,
+    marginBottom: 24
+  },
+  text: {
+      textAlign: 'center',
+      fontSize: 16,
+      marginBottom: 12,
+      color: '#7c8fe3'
+  }
 });
