@@ -4,7 +4,7 @@
     "slug": "AppEstetica",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/adaptative-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,8 +22,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/adaptative-icon.png",
+        "backgroundColor": "#fff"
       },
       "package": "com.GC1920.AppEstetica",
       "versionCode": 1
